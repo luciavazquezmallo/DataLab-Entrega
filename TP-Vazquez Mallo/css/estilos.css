@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@800&display=swap');
+
+body {
+background-color: rgb(6, 0, 28);
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+background-image: url(../Imagenes/FondoLineas.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+   
+}
+header{
+    width: 100vw;
+    height: 50vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+   
+
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    color: rgb(242, 252, 255);
+    margin-left: 8.5%;
+    letter-spacing: 10px;
+  
+    
+}
+
+h2 {
+    font-size: 1.3em;
+    color: rgb(255, 71, 25);
+   
+    }
+
+
+p {
+font-weight:300;
+font-size: 1.6em;
+color: rgb(242, 252, 255);
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(242, 252, 255);
+    width: 100px;
+    background-color: rgb(255, 71, 25);
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+   
+    
+}
+
+h3 {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(242, 252, 255);
+  
+    
+}
+
+
+a:hover {
+    color: rgba(242, 252, 255, 1);
+    background-color: rgb(255, 71, 25);
+
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 60%;
+    }
+
+}
